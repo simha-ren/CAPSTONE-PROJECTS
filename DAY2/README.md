@@ -2,6 +2,8 @@
 
 This notebook demonstrates various machine learning concepts, focusing on dataset preparation, model training, and evaluation, particularly for classification tasks using the Breast Cancer dataset and a regression task using the Diabetes dataset.
 
+## Colab link: https://colab.research.google.com/drive/18-s-SrsaT9tfuFptcd3AvzJYZnP6FXT1?authuser=1
+
 ## Table of Contents
 1.  [Setup](#setup)
 2.  [Dataset Preparation](#dataset-preparation)
