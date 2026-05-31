@@ -65,3 +65,8 @@ This analysis is provided as a Jupyter/Google Colab notebook. To run it:
 2.  Execute the cells sequentially to reproduce the analysis and visualizations.
 
 Colab link: https://colab.research.google.com/drive/1_Ks4jRXga2glvnDL5nsRb3ARkJDjzB9T?authuser=1#scrollTo=OzJyoZcehHZz
+
+
+
+## SENTIMENT ANALYSIS
+Colab link: https://colab.research.google.com/drive/1Jc-Obzi2tP_kFmbGgPBjmkoscd4B8ivk?authuser=1#scrollTo=c9-vyiLi783T
