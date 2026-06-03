@@ -1,4 +1,4 @@
-## Linkedin website implementation and again do analysis of what all features can be implemented on object storage, and which one (S3 OR blob storage) is best for same.
+##Linkedin website implementation and again do analysis of what all features can be implemented on object storage, and which one (S3 OR blob storage) is best for same.
 
 ## 1.Determine the features which you can implement for linkedin profiles/feeds through object storage
 
