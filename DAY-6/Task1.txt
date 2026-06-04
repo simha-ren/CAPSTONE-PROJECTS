@@ -1,4 +1,6 @@
-Medecins Sans Frontieres-Field Operations data platform
+
+Medecins Sans Frontieres-Field Operations data platform 
+--------------------------------------------------------
 
 MSF runs humanitarian operations in 70+ countries.
 They want to build a unified data platform that consolidates field clinincl data
@@ -6,6 +8,7 @@ patients intake forms,drug inventory logs,outbreak reports and staff deployment
 records-from 400 field sites into a central analytics hub for their Geneva headquaters team.
 
 Recommend approach : ELT(Snowflake+dbt)
+---------------------------------------
 For MSF'S field operation data paltform, the shopify-style ELT pattern is the better fir over ETL.
 
 1.Infrastructure Constraints --> Batch-friendly
@@ -33,11 +36,31 @@ For MSF'S field operation data paltform, the shopify-style ELT pattern is the be
   . Batch processing is cost-efficient
 
 6. Cost Efficiency
-   . Cheap storage
+   . Cheap storage/
    . on-demand .compute
------> Important for NGO'S like MSF with budget sensitivity
 
-ETL IS NOT FIT Because:
+NOTE: Important for NGO'S like MSF with budget sensitivity
+
+
+HIGH-LEVEL ARCHITECTURE
+--------------------------------------------------------------
+1.Ingestion ---> (Daily CSV uploads---> Cloudstorage(Azure))
+              |
+             \|/
+             
+2.Raw Layer(Bronze)----> Store all raw data as-is(restricted access)
+              |
+             \|/
+3.Staging/cleaning(Silver) ---> Standardized schema,normalize formats,apply anonymization
+              |
+             \|/
+4.Analytics layer(Gold)----> dbt models for : trends,inventory forecasts,staffing analytics
+              |/
+             \|/
+5.Query Layer: Snowflake for analysts
+-----------------------------------------------------------------------
+
+*ETL IS NOT FIT Because:
 . High infra cost
 . Fixed transformation logic
 . Real-time streaming focus
