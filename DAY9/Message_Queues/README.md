@@ -1,4 +1,4 @@
-# Project Title
+# MESSAGE_QUEUES
 
 ## Description
 This project demonstrates a FastAPI application with various message queue implementations and advanced features within a Google Colab environment. It explores different brokers (in-memory, RabbitMQ, Azure Service Bus) and includes concepts like dead-letter queues, priority queuing, background workers, and Prometheus monitoring.
