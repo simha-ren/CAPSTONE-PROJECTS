@@ -32,5 +32,9 @@ This project demonstrates a FastAPI application with various message queue imple
 *   **Extension C: Priority Queueing (In-Memory)**
 *   **Extension D: Background Worker with Prometheus DLQ Alert**
 
+## Output:
+
+https://github.com/simha-ren/EY-Training/blob/main/DAY9/Message_Queues/Message_queues.PNG
+
 ## Usage
 Follow the cells in order, uncommenting and modifying as instructed to switch between different message broker implementations and enable advanced features.
