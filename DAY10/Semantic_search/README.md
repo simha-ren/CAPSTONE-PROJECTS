@@ -59,4 +59,9 @@ After running the evaluation, the following scores were obtained:
 *   An **MRR of 1.0000** indicates that for every query in the `ground_truth` dataset, the first relevant document was always ranked at the very top (rank 1) by the `hybrid_search_engine`.
 *   An **NDCG@5 of 0.9693** suggests a very high-quality ranking, where highly relevant documents are consistently placed at the top of the search results within the top 5 positions, closely matching an ideal ranking.
 
+## OUTPUT :
+https://github.com/simha-ren/EY-Training/blob/main/DAY10/Semantic_search/semantic_1.PNG
+
+https://github.com/simha-ren/EY-Training/blob/main/DAY10/Semantic_search/Semantic_2.PNG
+
 These results demonstrate that the hybrid search engine, when evaluated against this specific ground truth, performs exceptionally well.
