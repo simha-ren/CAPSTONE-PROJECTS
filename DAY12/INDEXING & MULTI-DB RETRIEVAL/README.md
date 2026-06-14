@@ -106,7 +106,8 @@ In a Colab environment, these arguments are typically set programmatically withi
 *   **Different Embedders**: Integrate other embedding models (e.g., from OpenAI, Google, Sentence Transformers) to see their impact on retrieval quality.
 *   **Larger Corpus**: Test with a larger and more diverse document corpus.
 *   **Advanced FAISS Indexes**: Explore more advanced FAISS index types (e.g., `IndexIVFFlat`, `IndexHNSWFlat`) for speed-accuracy tradeoffs.
-
-## OUTPUT
-latency_benchmark.png
 *   **Semantic Reranking**: Investigate how Cohere's reranking impacts scenarios where initial retrieval is less precise.
+
+## OUTPUT:
+
+https://github.com/simha-ren/EY-Training/blob/main/DAY12/INDEXING%20%26%20MULTI-DB%20RETRIEVAL/latency_benchmark.png
