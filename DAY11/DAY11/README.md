@@ -58,10 +58,3 @@ Notes on interpretation
 - Stationarity: The pipeline reports ADF and KPSS results. If ADF fails to reject the null (unit root) or KPSS rejects stationarity, consider differencing or detrending.
 - Outliers: Residual z-scores (|z|>3) are marked as candidate anomalies. Verify against raw sensor traces to avoid removing valid physiological peaks.
 
-Extending the pipeline
-- To use real `IR`/`Red` channels, upload a CSV containing those columns (same folder) and re-run the pipeline. The script will automatically produce `ir_red_minmax.png`, `ir_red_zscore.png`, and `ir_red_peaks.csv`.
-- I can add ARIMA/Prophet/LSTM comparisons and produce a single CSV with forecast vs actual and error columns if you want — tell me which model(s) to try.
-
-Contact
-- If you want me to regenerate artifacts with a provided `IR`/`Red` CSV, upload the file and I will run and attach the resulting plots and `ir_red_peaks.csv`.
-
